@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Simple Graph with Chart.js</title>
+    <script src="Chart.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1 style="margin: auto; margin-bottom: 0;">Create Graph</h1>
+    <p>...using Chart.js<br>
+    Type X Y values in format<br>
+    X Y<br>
+    2.4 7<br>
+    6.8 16.3<br>
+    ...<br>
+    (Use . as decimal separator)
+    </p>
+    <div id="x_y_coordinates">
+        <label for="xy">X Y values:</label>
+        <textarea  type="textarea" id="xy" name="xy"></textarea>
+        <button onclick="f_generate_graph()">Generate Graph</button>
+    </div>
+    <canvas id="Graph" style="width: 90%; max-width: 800px; max-height: 400px; margin: auto; border: 2px dotted rgba(161, 98, 98, 0.527); border-radius: 7px; padding: 6px; margin-top: 0;"></canvas>
+    <script src="index.js"></script>
+  </body>
+</html>

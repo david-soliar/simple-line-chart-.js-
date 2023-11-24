@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(223, 223, 223);
+}
+
+label{
+    font-size: medium;
+    font-weight: 500;
+    margin: auto;
+}
+
+#x_y_coordinates{
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+    width: 95vw;
+    max-width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+button {
+    color: rgb(0, 132, 255);
+    text-align: center;
+    font-size: large;
+    border-radius: 4px;
+    margin: auto;
+}
+
+textarea {
+    width: 80vw;
+    max-width: 400px;
+    height: 30vh;
+    margin: auto;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1em;
+}
+
+p {
+    display: inline;
+    margin: auto;
+    text-align: center;
+}
